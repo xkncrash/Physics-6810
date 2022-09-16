@@ -1,0 +1,9 @@
+// include files
+#include <iostream>
+#include <string>     // C++ strings                                 
+#include <stdlib.h>      // this has exit
+#include <gsl/gsl_errno.h>	// header for gsl error handling
+#include <gsl/gsl_spline.h>	// header for gsl splining routines 
+#include "GslSpline.h"      // include the header for this class
+
+Ode::Ode(int dimension, void *type_ptr
